@@ -39,6 +39,8 @@ declare module 'jwks-rsa' {
 
     function koaJwtSecret(options: JwksRsa.Options): (name: string, scheme: string, options?: any) => void;
 
+    function passportJwtSecret(option: JwksRsa.Options): (name: string, scheme: string, options?: any) => void
+
     class ArgumentError extends Error {
       constructor(message: string);
     }

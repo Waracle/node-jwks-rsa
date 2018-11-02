@@ -1,11 +1,11 @@
 {
   "name": "jwks-rsa",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "description": "Library to retrieve RSA public keys from a JWKS endpoint",
   "main": "lib/index.js",
   "types": "index.d.ts",
   "dependencies": {
-    "@types/express-jwt": "0.0.34",
+    "@types/express-jwt": "0.0.40",
     "debug": "^2.2.0",
     "limiter": "^1.1.0",
     "lru-memoizer": "^1.6.0",
@@ -22,7 +22,7 @@
     "eslint": "^2.10.2",
     "eslint-plugin-babel": "^3.2.0",
     "express": "^4.16.2",
-    "express-jwt": "^3.4.0",
+    "express-jwt": "^5.3.1",
     "jsonwebtoken": "^7.1.7",
     "koa": "^2.2.0",
     "koa-jwt": "^3.2.0",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auth0/node-jwks-rsa.git"
+    "url": "git+https://github.com/waracle/node-jwks-rsa.git"
   },
   "keywords": [
     "jwks",

@@ -39,3 +39,4 @@ lib
 # IDE files
 .idea/
 *.iml
+/.env
